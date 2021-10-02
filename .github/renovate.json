@@ -3,7 +3,7 @@
   "timezone": "Asia/Tokyo",
   "lockFileMaintenance": {
       "enabled": true,
-      "automerge": false
+      "automerge": true
   },
   "patch": {
       "automerge": true
@@ -12,7 +12,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-        "automerge": false
+        "automerge": true
   }
    ]
 }
